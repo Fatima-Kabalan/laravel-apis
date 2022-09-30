@@ -15,22 +15,22 @@ class prefixController extends Controller
         // returns the values after postfix expression
         switch ($list[0]) {
             case "+":
-                for ($i = 2; $i < count($array); $i++) {
+                for ($i = 2; $i < count($list); $i++) {
                     $result += $list[$i];
                 }
                 break;
             case "-":
-                for ($i = 2; $i < count($array); $i++) {
+                for ($i = 2; $i < count($list); $i++) {
                     $result -= $list[$i];
                 }
                 break;
             case "*":
-                for ($i = 2; $i < count($array); $i++) {
+                for ($i = 2; $i < count($list); $i++) {
                     $result *= $list[$i];
                 }
                 break;
             case "/":
-                for ($i = 2; $i < count($array); $i++) {
+                for ($i = 2; $i < count($list); $i++) {
                     $result /= $list[$i];
                 }
                 break;
