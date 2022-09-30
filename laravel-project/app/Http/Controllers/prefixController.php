@@ -12,7 +12,7 @@ class prefixController extends Controller
         $list = str_split($text);
         $result=$list[1];
 
-        // returns the expression after postfix one 
+        // returns the values after postfix expression
         switch ($list[0]) {
             case "+":
                 for ($i = 2; $i < count($array); $i++) {
@@ -35,8 +35,6 @@ class prefixController extends Controller
                 }
                 break;
         }
-
-
         return response()->json([
             "status" => "Success",
             "message" => $result
