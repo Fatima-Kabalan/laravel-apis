@@ -10,8 +10,7 @@ class separateNumController extends Controller
         //count the times that a number is divided by 10 
         $counter = 1;
         // a list that will take all the values of numbers(Hundreds,tens,ones) in it at the end 
-        $list = [] ;
-        
+        $list = [] ;    
         // The array will take all the values of the user in a placevalue form 
         while ($num !=0 ){
             $rem = $num % 10 ;
