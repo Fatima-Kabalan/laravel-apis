@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\separateNumController;
+use App\Http\Controllers\humanToprogrammerController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
